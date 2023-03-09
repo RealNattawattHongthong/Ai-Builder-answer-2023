@@ -32,7 +32,7 @@ def SudokuQuadrantChecker(strArr):
 input1 = ['[5, x, x, x, 7, x, x, x, x]', '[6, x, x, 1, 9, 5, x, x, x]', '[x, 9, 8, x, x, x, x, 6, x]', '[8, x, x, x, 6, x, x, x, 3]', '[4, x, x, 8, x, 3, x, x, 1]', '[7, x, x, x, 2, x, x, x, 6]', '[x, 6, x, x, x, x, 2, 8, x]', '[x, x, x, 4, 1, 9, x, x, 5]', '[x, x, x, x, 8, x, x, 7, 9]']
 output1 = SudokuQuadrantChecker(input1)
 print(output1)
-
+####
 '''
 #illegal damn thing    
 input2 = ['[5, 3, x, x, 7, x, x, x, x]', '[6, x, x, 1, 9, 5, x, x, x]', '[x, 9, 8, x, x, x, x, 6, x]', '[8, x, x, x, 6, x, x, x, 3]', '[4, x, x, 8, x, 3, x, x, 2]', '[7, x, x, x, 2, x, x, x, 6]', '[x, 6, x, x, x, x, 2, 8, x]', '[x, x, x, 4, 1, 9, x, x, 5]', '[x, x, x, x, 8, x, x, 7, 9]']

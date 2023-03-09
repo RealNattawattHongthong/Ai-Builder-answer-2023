@@ -23,3 +23,4 @@ if name == "main":
   input= ["dolphin" , "dogs"]
   print("The longest Common Prefix is :" ,
                  ehee(input))
+  ###

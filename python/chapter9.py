@@ -21,3 +21,4 @@ prices3 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(StockPicker(prices1)) 
 print(StockPicker(prices2)) 
 print(StockPicker(prices3))
+#####

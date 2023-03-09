@@ -7,3 +7,4 @@ def findmidprefix(s):
 s = "Hello World!"
 result = findmidprefix(s)
 print(result)
+###
