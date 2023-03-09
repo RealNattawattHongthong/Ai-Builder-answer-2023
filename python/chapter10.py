@@ -20,3 +20,4 @@ def GroupTotals(strArr):
 
     return result[:-1]
 print(GroupTotals(["B:-1", "A:1", "B:3", "A:5", "C:0"]))
+#####

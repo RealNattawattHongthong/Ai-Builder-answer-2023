@@ -11,3 +11,4 @@ def WordSplit(strArr):
     else:
         return "not possible"
 print(WordSplit(["hellocat", "apple,bat,cat,goodbye,hello,yellow,why"]))
+#####
