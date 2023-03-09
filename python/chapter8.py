@@ -28,15 +28,12 @@ def SudokuQuadrantChecker(strArr):
         return quadrants_with_errors
     else:
         return "legal"
-#legal fucking thing
-input1 = ['[5, x, x, x, 7, x, x, x, x]', '[6, x, x, 1, 9, 5, x, x, x]', '[x, 9, 8, x, x, x, x, 6, x]', '[8, x, x, x, 6, x, x, x, 3]', '[4, x, x, 8, x, 3, x, x, 1]', '[7, x, x, x, 2, x, x, x, 6]', '[x, 6, x, x, x, x, 2, 8, x]', '[x, x, x, 4, 1, 9, x, x, 5]', '[x, x, x, x, 8, x, x, 7, 9]']
+# legal damn thing    
+input1 = ['[5, 3, 2, 6, 7, 8, 1, 4, 9]', '[6, 4, 7, 1, 9, 5, 3, 2, 8]', '[9, 1, 8, 2, 4, 3, 5, 6, 7]', '[8, 2, 5, 9, 6, 1, 4, 7, 3]', '[4, 9, 6, 8, 5, 3, 7, 1, 2]', '[7, 1, 3, 5, 2, 4, 9, 8, 6]', '[1, 6, 9, 7, 3, 4, 2, 8, 5]', '[2, 8, 1, 4, x, 7, 6, 9, 5]', '[3, 5, 4, 2, 8, 6, 1, 7, 9]']
 output1 = SudokuQuadrantChecker(input1)
 print(output1)
-####
-'''
-#illegal damn thing    
-input2 = ['[5, 3, x, x, 7, x, x, x, x]', '[6, x, x, 1, 9, 5, x, x, x]', '[x, 9, 8, x, x, x, x, 6, x]', '[8, x, x, x, 6, x, x, x, 3]', '[4, x, x, 8, x, 3, x, x, 2]', '[7, x, x, x, 2, x, x, x, 6]', '[x, 6, x, x, x, x, 2, 8, x]', '[x, x, x, 4, 1, 9, x, x, 5]', '[x, x, x, x, 8, x, x, 7, 9]']
+
+# illegal damn thing    
+input2 = ['[5, 3, x, x, 7, x, x, x, x]', '[6, x, x, 1, 9, 5, x, x, x]', '[x, 9, 8, x, x, x, x, 6, x]', '[8, x, x, x, 6, x, x, x, 3]', '[4, x, x, 8, x, 3, x, x, 1]', '[7, x, x, x, 2, x, x, x, 6]', '[x, 6, x, x, x, x, 2, 8, x]', '[x, x, x, 4, 1, x, x, x, 5]', '[x, x, x, x, 8, x, x, 7, 9]']
 output2 = SudokuQuadrantChecker(input2)
 print(output2)
-'''
-#Done!
